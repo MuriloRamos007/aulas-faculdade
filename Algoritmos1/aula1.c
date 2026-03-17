@@ -29,8 +29,7 @@ int main(){
     printf("=========================================\n");
 
     printf("\nPressione ENTER para finalizar...");
-    getchar();
-    getchar();
+    system("pause");
 
     return 0;
 }
