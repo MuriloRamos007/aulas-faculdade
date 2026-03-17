@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int main(){
+
+    setlocale(LC_ALL, "Portuguese");
 
     int a, b, multi;
 
@@ -12,10 +15,10 @@ int main(){
     printf("             MULTIPLEX\n");
     printf("=========================================\n\n");
 
-    printf("[1] Digite o primeiro numero: ");
+    printf("[1] Digite o primeiro número: ");
     scanf("%d", &a);
 
-    printf("[2] Digite o segundo numero: ");
+    printf("[2] Digite o segundo número: ");
     scanf("%d", &b);
 
     multi = a * b;
